@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  background: #575252;
+}
+
+.container {
+  background: #ada4a4;
+  width: 360px;
+  padding: 16px;
+  border-top: 1px solid #1b1b1b;
+  border-left: 1px solid #131212;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 40px 50px rgba(179, 58, 58, 0.15);
+          box-shadow: 0 40px 50px rgba(179, 58, 58, 0.15);
+}
+
+.container input[type="text"] {
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 40px;
+  text-align: right;
+  padding-right: 10px;
+  color: red;
+  background: transparent;
+}
+
+.container input[type="button"] {
+  cursor: pointer;
+  margin-top: 16px;
+  height: 65px;
+  width: calc(100%/ 4 - 5px);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #020202;
+  background: transparent;
+}
+
+.container input[type="button"]:hover {
+  background: #8b8080;
+}
+/*# sourceMappingURL=style.css.map */
